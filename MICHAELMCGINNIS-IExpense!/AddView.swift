@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct AddView: View {
+    @ObservedObject var expenses: Expenses
     @State private var name = ""
     @State private var type = "Personal"
+    @State private var category = "Misc."
     @State private var amount = 0.0
     
     @Environment(\.dismiss) var dismiss
-    
-    @ObservedObject var expenses: Expenses
     
     let types = ["Business", "Personal"]
     var body: some View {

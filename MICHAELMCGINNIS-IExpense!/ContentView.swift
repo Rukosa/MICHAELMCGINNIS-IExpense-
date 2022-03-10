@@ -54,6 +54,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
+                HStack{
+                NavigationLink(destination: SpendingSummaryView(expenses: expenses.items)){
+                    Text("Spending Summary")
+                            .foregroundColor(.black)
+                            .font(.title)
+            }
+                }
                 Text("Personal")
             List{
                 ForEach(expenses.items){ item in

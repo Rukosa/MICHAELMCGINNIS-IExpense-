@@ -12,6 +12,7 @@
 		0C19E18027D949DA008F9F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C19E17F27D949DA008F9F99 /* Assets.xcassets */; };
 		0C19E18327D949DA008F9F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C19E18227D949DA008F9F99 /* Preview Assets.xcassets */; };
 		0C19E18A27D94C22008F9F99 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19E18927D94C22008F9F99 /* AddView.swift */; };
+		0C19E18C27D9B4E8008F9F99 /* SpendingSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19E18B27D9B4E8008F9F99 /* SpendingSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0C19E17F27D949DA008F9F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C19E18227D949DA008F9F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C19E18927D94C22008F9F99 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		0C19E18B27D9B4E8008F9F99 /* SpendingSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				0C19E17B27D949DA008F9F99 /* MICHAELMCGINNIS_IExpense_App.swift */,
 				0C19E17D27D949DA008F9F99 /* ContentView.swift */,
+				0C19E18B27D9B4E8008F9F99 /* SpendingSummaryView.swift */,
 				0C19E18927D94C22008F9F99 /* AddView.swift */,
 				0C19E17F27D949DA008F9F99 /* Assets.xcassets */,
 				0C19E18127D949DA008F9F99 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C19E17E27D949DA008F9F99 /* ContentView.swift in Sources */,
+				0C19E18C27D9B4E8008F9F99 /* SpendingSummaryView.swift in Sources */,
 				0C19E17C27D949DA008F9F99 /* MICHAELMCGINNIS_IExpense_App.swift in Sources */,
 				0C19E18A27D94C22008F9F99 /* AddView.swift in Sources */,
 			);
